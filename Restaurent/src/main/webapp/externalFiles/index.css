@@ -1,0 +1,49 @@
+
+@keyframes fadeAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+.image-container img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    animation: fadeAnimation 1s ease-in-out;
+    transition: transform 0.5s;
+}
+.boxes :hover{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    animation: fadeAnimation 1s ease-in-out;
+    transition: transform 0.5s;
+}
+
+.image-container img.flipped {
+    transform: scale(1.2);
+    z-index: 1;
+}
+.image-container img:hover{
+    width: calc(280px + 20px);
+    height: calc(300px + 20px);
+    margin: -10px;
+    transition: width 0.5s, height 0.5s, margin 1s;
+}
+
+.image-container img.disabled {
+    pointer-events: none;
+}
+
+.boxes {
+    animation: fadeAnimation 1s ease-in-out;
+}

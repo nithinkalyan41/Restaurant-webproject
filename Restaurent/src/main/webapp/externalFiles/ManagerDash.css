@@ -1,0 +1,25 @@
+
+.navbar-nav .nav-link.active {
+    background-color: #333;
+    color: white;
+}
+
+#inventory {
+    background-color: #979A9A;
+}
+
+#staff {
+    background-color: #AEB6BF;
+}
+
+#expenses {
+    background-color: #D5D8DC;
+}
+
+#income {
+    background-color: #E5E7E9;
+}
+
+#profile {
+    background-color: #F2F3F4;
+}

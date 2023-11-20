@@ -1,0 +1,24 @@
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-control button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-control input {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    /* Remove spinner controls */
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    appearance: none;
+}
